@@ -1,5 +1,5 @@
 const express = require("express");
-const ControllerVideo = require("../controllers/ControllerVideo");
+const ControllerVideo = require("../controllers/ControllerVideos");
 const router = express.Router();
 
 //Cadastrar

@@ -3,14 +3,13 @@
 const express = require("express");
 const app = express();
 const database = require("./db/db");
-const Video = require("./models/Video");
 const hand = require("express-handlebars");
 //MODELS
-const Video = require("./models/Video");
+//const Video = require("./models/Video");
 const VideoRoutes = require("./routes/routesVideo");
 
 //CONTROLLERS
-const VideosControllers = require("./controllers/ControllerVideo");
+//const VideosControllers = require("./controllers/ControllerVideos");
 app.engine("handlebars", hand.engine());
 app.set("view engine", "handlebars");
 

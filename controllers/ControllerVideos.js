@@ -16,7 +16,8 @@ module.exports = class VideoController {
             link: req.body.link
         }
         await Video.create(video);
-        res.send("Cadastro realizado com sucesso!");
+        //res.send("Cadastro realizado com sucesso!");
+        res(redirect("/"))
     }
 
     
